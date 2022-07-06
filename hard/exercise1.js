@@ -3,4 +3,6 @@
 // mảng chuỗi ký tự giữ nguyên vị trí của các từ nhưng đảo ngược các ký tự trong từng từ
 
 
-console.log(stringReverse('Qua la sen'));
+let org_str = 'Qua la sen';
+let reverse_str = org_str.split('').reverse().join('');
+console.log(reverse_str);
